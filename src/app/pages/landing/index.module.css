@@ -1,0 +1,36 @@
+.container {
+  @apply w-full h-[100vh] bg-[url("/assets/images/background/bg_lp_desk.jpg")] max-sm:bg-[url("/assets/images/background/bg_lp_mobile.png")] flex justify-center items-center;
+  background-size: 100% 100%;
+}
+
+.main {
+  @apply flex flex-col md:gap-4 max-sm:gap-10 text-center;
+}
+
+.main_header {
+  @apply md:hidden text-[27.11px] font-extrabold leading-[69.91px] text-white;
+}
+
+.logo_container {
+  @apply flex justify-center;
+}
+
+.logo {
+  @apply md:w-[305.37px] md:h-[291.97px] max-sm:w-[210px] max-sm:h-[210px];
+}
+
+.bottomTitle {
+  @apply max-sm:hidden font-bold text-[55px] leading-[71px] text-white;
+}
+
+.bottom_title_main {
+  @apply text-4xl bg-gradient-to-b from-[#5454C8] to-[#8689F3] bg-clip-text text-transparent;
+}
+
+.jointoday {
+  @apply max-sm: hidden text-[18px] font-medium leading-[23.4px] text-[#DADADA];
+}
+
+.share_inpire {
+  @apply md: hidden font-normal text-[18.07px] leading-[21.87px] text-white text-center;
+}
